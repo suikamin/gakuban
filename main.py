@@ -13,9 +13,3 @@ n2 = deff.unexiststr(n1)
 n3 = deff.matubi(n1)
 n4 = deff.number_convert(n3, n2)
 n5 = deff.sum(n1)
-
-cov = []
-
-for h in n4:
-    cov.append(h*0.0064 + 4.013)
-print(cov)
